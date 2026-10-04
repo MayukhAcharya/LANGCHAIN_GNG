@@ -1,0 +1,8 @@
+Structured output in langchain is a way to get well defined formatted data primarily JSON data, from which we can feed the
+JSON to another model, to get our results
+i. This makes our model output easier to parse
+ii. and work programatically
+
+LLMs have 2 types that we can get 
+1. which can return structured output -> we use with_structured_output with TypeDict/Pydantic(validation of returned data)
+2. which cannot return structured output(mostly open source) -> we use Output Parsers

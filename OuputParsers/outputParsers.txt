@@ -1,0 +1,10 @@
+In models, there can be times when a model cannot support structured output. This basically occurs in open source models
+To counter this problem there is a solution in langchain, it is Output Parsers.
+
+These output parsers can work with models which support structured output too
+
+There are 4 types of output parsers:
+1. strOutputParser
+2. JSONOutputParser
+3. structuredOutputParser
+4. PydanticOutputParser
